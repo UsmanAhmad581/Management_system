@@ -1,0 +1,535 @@
+2026-07-26 09:49:56,561 [INFO] ======================================================================
+2026-07-26 09:49:56,562 [INFO] VSIMS API server starting up...
+2026-07-26 09:49:56,562 [INFO] Configuration loaded from C:\Users\sulem\Downloads\prototype\dist\config.ini
+2026-07-26 09:49:56,562 [INFO] Database: C:\Users\sulem\Downloads\prototype\dist\vsims.db
+2026-07-26 09:49:56,562 [INFO] Log level: 20
+2026-07-26 09:49:56,562 [INFO] ======================================================================
+2026-07-26 09:49:56,583 [INFO] Database initialized successfully at C:\Users\sulem\Downloads\prototype\dist\vsims.db
+2026-07-26 09:49:56,583 [INFO] Creating database backup...
+2026-07-26 09:49:56,586 [INFO] Database backed up to C:\Users\sulem\Downloads\prototype\dist\backups\vsims_20260726_094956.db
+2026-07-26 09:49:56,587 [INFO] Backup created: C:\Users\sulem\Downloads\prototype\dist\backups\vsims_20260726_094956.db
+2026-07-26 09:49:56,609 [INFO] VSIMS API server running at http://127.0.0.1:8000/
+2026-07-26 09:49:58,150 [INFO] 127.0.0.1 - "GET / HTTP/1.1" 200 -
+2026-07-26 09:49:58,210 [INFO] 127.0.0.1 - "GET /styles.css HTTP/1.1" 200 -
+2026-07-26 09:49:58,218 [INFO] 127.0.0.1 - "GET /js/api.js HTTP/1.1" 200 -
+2026-07-26 09:49:58,224 [INFO] 127.0.0.1 - "GET /js/icons.js HTTP/1.1" 200 -
+2026-07-26 09:49:58,225 [INFO] 127.0.0.1 - "GET /js/auth.js HTTP/1.1" 200 -
+2026-07-26 09:49:58,232 [INFO] 127.0.0.1 - "GET /js/state.js HTTP/1.1" 200 -
+2026-07-26 09:49:58,234 [INFO] 127.0.0.1 - "GET /js/modals-data.js HTTP/1.1" 200 -
+2026-07-26 09:49:58,234 [INFO] 127.0.0.1 - "GET /js/pos.js HTTP/1.1" 200 -
+2026-07-26 09:49:58,241 [INFO] 127.0.0.1 - "GET /js/purchases.js HTTP/1.1" 200 -
+2026-07-26 09:49:58,252 [INFO] 127.0.0.1 - "GET /js/payments.js HTTP/1.1" 200 -
+2026-07-26 09:49:58,253 [INFO] 127.0.0.1 - "GET /js/expenses.js HTTP/1.1" 200 -
+2026-07-26 09:49:58,259 [INFO] 127.0.0.1 - "GET /js/receipts.js HTTP/1.1" 200 -
+2026-07-26 09:49:58,267 [INFO] 127.0.0.1 - "GET /js/customers.js HTTP/1.1" 200 -
+2026-07-26 09:49:58,267 [INFO] 127.0.0.1 - "GET /js/inventory.js HTTP/1.1" 200 -
+2026-07-26 09:49:58,270 [INFO] 127.0.0.1 - "GET /js/dashboard.js HTTP/1.1" 200 -
+2026-07-26 09:49:58,285 [INFO] 127.0.0.1 - "GET /js/products.js HTTP/1.1" 200 -
+2026-07-26 09:49:58,285 [INFO] 127.0.0.1 - "GET /js/suppliers.js HTTP/1.1" 200 -
+2026-07-26 09:49:58,286 [INFO] 127.0.0.1 - "GET /js/ui-core.js HTTP/1.1" 200 -
+2026-07-26 09:49:58,369 [INFO] 127.0.0.1 - "GET /api/customers HTTP/1.1" 200 -
+2026-07-26 09:49:58,398 [INFO] 127.0.0.1 - "GET /api/purchases HTTP/1.1" 200 -
+2026-07-26 09:49:58,398 [INFO] 127.0.0.1 - "GET /api/sales HTTP/1.1" 200 -
+2026-07-26 09:49:58,399 [INFO] 127.0.0.1 - "GET /api/suppliers HTTP/1.1" 200 -
+2026-07-26 09:49:58,399 [INFO] 127.0.0.1 - "GET /api/payments HTTP/1.1" 200 -
+2026-07-26 09:49:58,408 [INFO] 127.0.0.1 - "GET /api/products HTTP/1.1" 200 -
+2026-07-26 09:49:58,408 [INFO] 127.0.0.1 - "GET /api/expenses HTTP/1.1" 200 -
+2026-07-26 09:49:58,470 [WARNING] Unhandled GET request: /favicon.ico
+2026-07-26 09:49:58,472 [INFO] 127.0.0.1 - "GET /favicon.ico HTTP/1.1" 404 -
+2026-07-26 09:50:30,583 [INFO] Expense created: Electricity
+2026-07-26 09:50:30,583 [INFO] 127.0.0.1 - "POST /api/expenses HTTP/1.1" 200 -
+2026-07-26 09:50:45,038 [INFO] Expense created: Transport
+2026-07-26 09:50:45,038 [INFO] 127.0.0.1 - "POST /api/expenses HTTP/1.1" 200 -
+2026-07-26 09:51:03,194 [INFO] Customer created: CU-0101
+2026-07-26 09:51:03,194 [INFO] 127.0.0.1 - "POST /api/customers HTTP/1.1" 200 -
+2026-07-26 09:51:15,315 [INFO] Supplier created: SU-1
+2026-07-26 09:51:15,316 [INFO] 127.0.0.1 - "POST /api/suppliers HTTP/1.1" 200 -
+2026-07-26 09:52:10,340 [INFO] Product created: PR-1
+2026-07-26 09:52:10,340 [INFO] 127.0.0.1 - "POST /api/products HTTP/1.1" 200 -
+2026-07-26 09:52:23,179 [INFO] Product created: PR-2
+2026-07-26 09:52:23,179 [INFO] 127.0.0.1 - "POST /api/products HTTP/1.1" 200 -
+2026-07-26 09:52:41,283 [INFO] Product updated: PR-1
+2026-07-26 09:52:41,283 [INFO] 127.0.0.1 - "PUT /api/products/PR-1 HTTP/1.1" 200 -
+2026-07-26 09:54:03,008 [INFO] Purchase created: PUR-1
+2026-07-26 09:54:03,008 [INFO] 127.0.0.1 - "POST /api/purchases HTTP/1.1" 200 -
+2026-07-26 09:54:20,471 [INFO] Purchase created: PUR-2
+2026-07-26 09:54:20,472 [INFO] 127.0.0.1 - "POST /api/purchases HTTP/1.1" 200 -
+2026-07-26 09:54:20,490 [INFO] Payment created: PMT-1
+2026-07-26 09:54:20,490 [INFO] 127.0.0.1 - "POST /api/payments HTTP/1.1" 200 -
+2026-07-26 09:54:36,770 [INFO] Sale created: INV-1
+2026-07-26 09:54:36,771 [INFO] 127.0.0.1 - "POST /api/sales HTTP/1.1" 200 -
+2026-07-26 09:54:36,794 [INFO] Payment created: PMT-2
+2026-07-26 09:54:36,794 [INFO] 127.0.0.1 - "POST /api/payments HTTP/1.1" 200 -
+2026-07-26 09:55:02,482 [INFO] Payment created: PMT-3
+2026-07-26 09:55:02,482 [INFO] 127.0.0.1 - "POST /api/payments HTTP/1.1" 200 -
+2026-07-26 09:55:19,503 [INFO] Payment created: PMT-4
+2026-07-26 09:55:19,503 [INFO] 127.0.0.1 - "POST /api/payments HTTP/1.1" 200 -
+2026-07-26 09:55:46,442 [INFO] Payment created: PMT-5
+2026-07-26 09:55:46,443 [INFO] 127.0.0.1 - "POST /api/payments HTTP/1.1" 200 -
+2026-07-26 09:56:13,626 [INFO] Sale created: INV-2
+2026-07-26 09:56:13,626 [INFO] 127.0.0.1 - "POST /api/sales HTTP/1.1" 200 -
+2026-07-26 09:56:13,643 [INFO] Payment created: PMT-6
+2026-07-26 09:56:13,643 [INFO] 127.0.0.1 - "POST /api/payments HTTP/1.1" 200 -
+2026-07-26 10:02:36,443 [INFO] VSIMS API server stopping (tray quit)...
+2026-07-26 10:02:36,615 [INFO] VSIMS API server shut down cleanly
+2026-07-26 10:02:36,615 [INFO] ======================================================================
+2026-07-26 10:02:36,615 [INFO] VSIMS API server shutdown complete
+2026-07-26 10:02:36,616 [INFO] ======================================================================
+2026-07-26 10:02:40,701 [INFO] ======================================================================
+2026-07-26 10:02:40,701 [INFO] VSIMS API server starting up...
+2026-07-26 10:02:40,701 [INFO] Configuration loaded from C:\Users\sulem\Downloads\prototype\dist\config.ini
+2026-07-26 10:02:40,701 [INFO] Database: C:\Users\sulem\Downloads\prototype\dist\vsims.db
+2026-07-26 10:02:40,701 [INFO] Log level: 20
+2026-07-26 10:02:40,702 [INFO] ======================================================================
+2026-07-26 10:02:40,706 [INFO] Database initialized successfully at C:\Users\sulem\Downloads\prototype\dist\vsims.db
+2026-07-26 10:02:40,706 [INFO] Creating database backup...
+2026-07-26 10:02:40,709 [INFO] Database backed up to C:\Users\sulem\Downloads\prototype\dist\backups\vsims_20260726_100240.db
+2026-07-26 10:02:40,710 [INFO] Backup created: C:\Users\sulem\Downloads\prototype\dist\backups\vsims_20260726_100240.db
+2026-07-26 10:02:40,726 [INFO] VSIMS API server running at http://127.0.0.1:8000/
+2026-07-26 10:02:42,318 [INFO] 127.0.0.1 - "GET / HTTP/1.1" 200 -
+2026-07-26 10:02:42,385 [INFO] 127.0.0.1 - "GET /styles.css HTTP/1.1" 200 -
+2026-07-26 10:02:42,399 [INFO] 127.0.0.1 - "GET /js/api.js HTTP/1.1" 200 -
+2026-07-26 10:02:42,400 [INFO] 127.0.0.1 - "GET /js/icons.js HTTP/1.1" 200 -
+2026-07-26 10:02:42,402 [INFO] 127.0.0.1 - "GET /js/auth.js HTTP/1.1" 200 -
+2026-07-26 10:02:42,409 [INFO] 127.0.0.1 - "GET /js/pos.js HTTP/1.1" 200 -
+2026-07-26 10:02:42,410 [INFO] 127.0.0.1 - "GET /js/modals-data.js HTTP/1.1" 200 -
+2026-07-26 10:02:42,410 [INFO] 127.0.0.1 - "GET /js/state.js HTTP/1.1" 200 -
+2026-07-26 10:02:42,417 [INFO] 127.0.0.1 - "GET /js/expenses.js HTTP/1.1" 200 -
+2026-07-26 10:02:42,419 [INFO] 127.0.0.1 - "GET /js/purchases.js HTTP/1.1" 200 -
+2026-07-26 10:02:42,425 [INFO] 127.0.0.1 - "GET /js/payments.js HTTP/1.1" 200 -
+2026-07-26 10:02:42,429 [INFO] 127.0.0.1 - "GET /js/receipts.js HTTP/1.1" 200 -
+2026-07-26 10:02:42,430 [INFO] 127.0.0.1 - "GET /js/inventory.js HTTP/1.1" 200 -
+2026-07-26 10:02:42,430 [INFO] 127.0.0.1 - "GET /js/dashboard.js HTTP/1.1" 200 -
+2026-07-26 10:02:42,436 [INFO] 127.0.0.1 - "GET /js/suppliers.js HTTP/1.1" 200 -
+2026-07-26 10:02:42,437 [INFO] 127.0.0.1 - "GET /js/customers.js HTTP/1.1" 200 -
+2026-07-26 10:02:42,444 [INFO] 127.0.0.1 - "GET /js/products.js HTTP/1.1" 200 -
+2026-07-26 10:02:42,444 [INFO] 127.0.0.1 - "GET /js/ui-core.js HTTP/1.1" 200 -
+2026-07-26 10:02:42,540 [INFO] 127.0.0.1 - "GET /api/suppliers HTTP/1.1" 200 -
+2026-07-26 10:02:42,566 [INFO] 127.0.0.1 - "GET /api/payments HTTP/1.1" 200 -
+2026-07-26 10:02:42,567 [INFO] 127.0.0.1 - "GET /api/customers HTTP/1.1" 200 -
+2026-07-26 10:02:42,585 [INFO] 127.0.0.1 - "GET /api/purchases HTTP/1.1" 200 -
+2026-07-26 10:02:42,607 [INFO] 127.0.0.1 - "GET /api/products HTTP/1.1" 200 -
+2026-07-26 10:02:42,608 [INFO] 127.0.0.1 - "GET /api/expenses HTTP/1.1" 200 -
+2026-07-26 10:02:42,614 [INFO] 127.0.0.1 - "GET /api/sales HTTP/1.1" 200 -
+2026-07-26 10:02:42,681 [WARNING] Unhandled GET request: /favicon.ico
+2026-07-26 10:02:42,681 [INFO] 127.0.0.1 - "GET /favicon.ico HTTP/1.1" 404 -
+2026-07-26 10:02:50,771 [INFO] VSIMS API server stopping (tray quit)...
+2026-07-26 10:02:50,798 [INFO] VSIMS API server shut down cleanly
+2026-07-26 10:02:50,798 [INFO] ======================================================================
+2026-07-26 10:02:50,798 [INFO] VSIMS API server shutdown complete
+2026-07-26 10:02:50,798 [INFO] ======================================================================
+2026-07-26 10:02:53,733 [INFO] ======================================================================
+2026-07-26 10:02:53,733 [INFO] VSIMS API server starting up...
+2026-07-26 10:02:53,733 [INFO] Configuration loaded from C:\Users\sulem\Downloads\prototype\dist\config.ini
+2026-07-26 10:02:53,733 [INFO] Database: C:\Users\sulem\Downloads\prototype\dist\vsims.db
+2026-07-26 10:02:53,733 [INFO] Log level: 20
+2026-07-26 10:02:53,733 [INFO] ======================================================================
+2026-07-26 10:02:53,738 [INFO] Database initialized successfully at C:\Users\sulem\Downloads\prototype\dist\vsims.db
+2026-07-26 10:02:53,738 [INFO] Creating database backup...
+2026-07-26 10:02:53,741 [INFO] Database backed up to C:\Users\sulem\Downloads\prototype\dist\backups\vsims_20260726_100253.db
+2026-07-26 10:02:53,742 [INFO] Backup created: C:\Users\sulem\Downloads\prototype\dist\backups\vsims_20260726_100253.db
+2026-07-26 10:02:53,757 [INFO] VSIMS API server running at http://127.0.0.1:8000/
+2026-07-26 10:02:55,385 [INFO] 127.0.0.1 - "GET / HTTP/1.1" 200 -
+2026-07-26 10:02:55,448 [INFO] 127.0.0.1 - "GET /styles.css HTTP/1.1" 200 -
+2026-07-26 10:02:55,456 [INFO] 127.0.0.1 - "GET /js/icons.js HTTP/1.1" 200 -
+2026-07-26 10:02:55,457 [INFO] 127.0.0.1 - "GET /js/api.js HTTP/1.1" 200 -
+2026-07-26 10:02:55,460 [INFO] 127.0.0.1 - "GET /js/auth.js HTTP/1.1" 200 -
+2026-07-26 10:02:55,461 [INFO] 127.0.0.1 - "GET /js/modals-data.js HTTP/1.1" 200 -
+2026-07-26 10:02:55,463 [INFO] 127.0.0.1 - "GET /js/state.js HTTP/1.1" 200 -
+2026-07-26 10:02:55,467 [INFO] 127.0.0.1 - "GET /js/pos.js HTTP/1.1" 200 -
+2026-07-26 10:02:55,472 [INFO] 127.0.0.1 - "GET /js/purchases.js HTTP/1.1" 200 -
+2026-07-26 10:02:55,472 [INFO] 127.0.0.1 - "GET /js/payments.js HTTP/1.1" 200 -
+2026-07-26 10:02:55,483 [INFO] 127.0.0.1 - "GET /js/expenses.js HTTP/1.1" 200 -
+2026-07-26 10:02:55,483 [INFO] 127.0.0.1 - "GET /js/receipts.js HTTP/1.1" 200 -
+2026-07-26 10:02:55,513 [INFO] 127.0.0.1 - "GET /js/suppliers.js HTTP/1.1" 200 -
+2026-07-26 10:02:55,514 [INFO] 127.0.0.1 - "GET /js/customers.js HTTP/1.1" 200 -
+2026-07-26 10:02:55,515 [INFO] 127.0.0.1 - "GET /js/dashboard.js HTTP/1.1" 200 -
+2026-07-26 10:02:55,517 [INFO] 127.0.0.1 - "GET /js/products.js HTTP/1.1" 200 -
+2026-07-26 10:02:55,518 [INFO] 127.0.0.1 - "GET /js/inventory.js HTTP/1.1" 200 -
+2026-07-26 10:02:55,523 [INFO] 127.0.0.1 - "GET /js/ui-core.js HTTP/1.1" 200 -
+2026-07-26 10:02:55,601 [INFO] 127.0.0.1 - "GET /api/customers HTTP/1.1" 200 -
+2026-07-26 10:02:55,610 [INFO] 127.0.0.1 - "GET /api/sales HTTP/1.1" 200 -
+2026-07-26 10:02:55,634 [INFO] 127.0.0.1 - "GET /api/purchases HTTP/1.1" 200 -
+2026-07-26 10:02:55,638 [INFO] 127.0.0.1 - "GET /api/expenses HTTP/1.1" 200 -
+2026-07-26 10:02:55,641 [INFO] 127.0.0.1 - "GET /api/suppliers HTTP/1.1" 200 -
+2026-07-26 10:02:55,645 [INFO] 127.0.0.1 - "GET /api/payments HTTP/1.1" 200 -
+2026-07-26 10:02:55,646 [INFO] 127.0.0.1 - "GET /api/products HTTP/1.1" 200 -
+2026-07-26 10:02:55,710 [WARNING] Unhandled GET request: /favicon.ico
+2026-07-26 10:02:55,711 [INFO] 127.0.0.1 - "GET /favicon.ico HTTP/1.1" 404 -
+2026-07-26 10:06:32,183 [INFO] VSIMS API server stopping (tray quit)...
+2026-07-26 10:06:32,597 [INFO] VSIMS API server shut down cleanly
+2026-07-26 10:06:32,597 [INFO] ======================================================================
+2026-07-26 10:06:32,597 [INFO] VSIMS API server shutdown complete
+2026-07-26 10:06:32,597 [INFO] ======================================================================
+2026-07-26 10:22:52,154 [INFO] ======================================================================
+2026-07-26 10:22:52,155 [INFO] VSIMS API server starting up...
+2026-07-26 10:22:52,155 [INFO] Configuration loaded from C:\Users\sulem\Downloads\ALi\prototype\dist\config.ini
+2026-07-26 10:22:52,155 [INFO] Database: C:\Users\sulem\Downloads\ALi\prototype\dist\vsims.db
+2026-07-26 10:22:52,155 [INFO] Log level: 20
+2026-07-26 10:22:52,155 [INFO] ======================================================================
+2026-07-26 10:22:52,159 [INFO] Database initialized successfully at C:\Users\sulem\Downloads\ALi\prototype\dist\vsims.db
+2026-07-26 10:22:52,159 [INFO] Creating database backup...
+2026-07-26 10:22:52,161 [INFO] Database backed up to C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260726_102252.db
+2026-07-26 10:22:52,162 [INFO] Backup created: C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260726_102252.db
+2026-07-26 10:22:52,183 [INFO] VSIMS API server running at http://127.0.0.1:8000/
+2026-07-26 10:22:53,734 [INFO] 127.0.0.1 - "GET / HTTP/1.1" 200 -
+2026-07-26 10:22:53,823 [INFO] 127.0.0.1 - "GET /styles.css HTTP/1.1" 200 -
+2026-07-26 10:22:53,832 [INFO] 127.0.0.1 - "GET /js/icons.js HTTP/1.1" 200 -
+2026-07-26 10:22:53,832 [INFO] 127.0.0.1 - "GET /js/api.js HTTP/1.1" 200 -
+2026-07-26 10:22:53,834 [INFO] 127.0.0.1 - "GET /js/auth.js HTTP/1.1" 200 -
+2026-07-26 10:22:53,837 [INFO] 127.0.0.1 - "GET /js/modals-data.js HTTP/1.1" 200 -
+2026-07-26 10:22:53,837 [INFO] 127.0.0.1 - "GET /js/state.js HTTP/1.1" 200 -
+2026-07-26 10:22:53,879 [INFO] 127.0.0.1 - "GET /js/pos.js HTTP/1.1" 200 -
+2026-07-26 10:22:53,881 [INFO] 127.0.0.1 - "GET /js/expenses.js HTTP/1.1" 200 -
+2026-07-26 10:22:53,882 [INFO] 127.0.0.1 - "GET /js/dashboard.js HTTP/1.1" 200 -
+2026-07-26 10:22:53,882 [INFO] 127.0.0.1 - "GET /js/payments.js HTTP/1.1" 200 -
+2026-07-26 10:22:53,882 [INFO] 127.0.0.1 - "GET /js/receipts.js HTTP/1.1" 200 -
+2026-07-26 10:22:53,890 [INFO] 127.0.0.1 - "GET /js/purchases.js HTTP/1.1" 200 -
+2026-07-26 10:22:53,914 [INFO] 127.0.0.1 - "GET /js/inventory.js HTTP/1.1" 200 -
+2026-07-26 10:22:53,914 [INFO] 127.0.0.1 - "GET /js/customers.js HTTP/1.1" 200 -
+2026-07-26 10:22:53,914 [INFO] 127.0.0.1 - "GET /js/suppliers.js HTTP/1.1" 200 -
+2026-07-26 10:22:53,920 [INFO] 127.0.0.1 - "GET /js/products.js HTTP/1.1" 200 -
+2026-07-26 10:22:53,926 [INFO] 127.0.0.1 - "GET /js/ui-core.js HTTP/1.1" 200 -
+2026-07-26 10:22:54,033 [INFO] 127.0.0.1 - "GET /api/customers HTTP/1.1" 200 -
+2026-07-26 10:22:54,055 [INFO] 127.0.0.1 - "GET /api/suppliers HTTP/1.1" 200 -
+2026-07-26 10:22:54,055 [INFO] 127.0.0.1 - "GET /api/payments HTTP/1.1" 200 -
+2026-07-26 10:22:54,056 [INFO] 127.0.0.1 - "GET /api/purchases HTTP/1.1" 200 -
+2026-07-26 10:22:54,072 [INFO] 127.0.0.1 - "GET /api/expenses HTTP/1.1" 200 -
+2026-07-26 10:22:54,082 [INFO] 127.0.0.1 - "GET /api/products HTTP/1.1" 200 -
+2026-07-26 10:22:54,082 [INFO] 127.0.0.1 - "GET /api/sales HTTP/1.1" 200 -
+2026-07-26 10:22:54,094 [WARNING] Unhandled GET request: /favicon.ico
+2026-07-26 10:22:54,094 [INFO] 127.0.0.1 - "GET /favicon.ico HTTP/1.1" 404 -
+2026-07-26 10:23:32,158 [INFO] Sale created: INV-3
+2026-07-26 10:23:32,158 [INFO] 127.0.0.1 - "POST /api/sales HTTP/1.1" 200 -
+2026-07-26 10:23:32,185 [INFO] Payment created: PMT-7
+2026-07-26 10:23:32,185 [INFO] 127.0.0.1 - "POST /api/payments HTTP/1.1" 200 -
+2026-07-26 10:27:08,430 [INFO] Payment created: PMT-8
+2026-07-26 10:27:08,431 [INFO] 127.0.0.1 - "POST /api/payments HTTP/1.1" 200 -
+2026-07-26 10:29:03,858 [INFO] Payment created: PMT-9
+2026-07-26 10:29:03,858 [INFO] 127.0.0.1 - "POST /api/payments HTTP/1.1" 200 -
+2026-07-26 10:33:37,299 [INFO] 127.0.0.1 - "GET / HTTP/1.1" 200 -
+2026-07-26 10:33:37,390 [INFO] 127.0.0.1 - "GET /styles.css HTTP/1.1" 200 -
+2026-07-26 10:33:37,396 [INFO] 127.0.0.1 - "GET /js/api.js HTTP/1.1" 200 -
+2026-07-26 10:33:37,396 [INFO] 127.0.0.1 - "GET /js/icons.js HTTP/1.1" 200 -
+2026-07-26 10:33:37,398 [INFO] 127.0.0.1 - "GET /js/modals-data.js HTTP/1.1" 200 -
+2026-07-26 10:33:37,399 [INFO] 127.0.0.1 - "GET /js/auth.js HTTP/1.1" 200 -
+2026-07-26 10:33:37,407 [INFO] 127.0.0.1 - "GET /js/state.js HTTP/1.1" 200 -
+2026-07-26 10:33:37,407 [INFO] 127.0.0.1 - "GET /js/pos.js HTTP/1.1" 200 -
+2026-07-26 10:33:37,410 [INFO] 127.0.0.1 - "GET /js/purchases.js HTTP/1.1" 200 -
+2026-07-26 10:33:37,414 [INFO] 127.0.0.1 - "GET /js/payments.js HTTP/1.1" 200 -
+2026-07-26 10:33:37,415 [INFO] 127.0.0.1 - "GET /js/expenses.js HTTP/1.1" 200 -
+2026-07-26 10:33:37,422 [INFO] 127.0.0.1 - "GET /js/receipts.js HTTP/1.1" 200 -
+2026-07-26 10:33:37,428 [INFO] 127.0.0.1 - "GET /js/dashboard.js HTTP/1.1" 200 -
+2026-07-26 10:33:37,428 [INFO] 127.0.0.1 - "GET /js/inventory.js HTTP/1.1" 200 -
+2026-07-26 10:33:37,430 [INFO] 127.0.0.1 - "GET /js/customers.js HTTP/1.1" 200 -
+2026-07-26 10:33:37,437 [INFO] 127.0.0.1 - "GET /js/suppliers.js HTTP/1.1" 200 -
+2026-07-26 10:33:37,439 [INFO] 127.0.0.1 - "GET /js/ui-core.js HTTP/1.1" 200 -
+2026-07-26 10:33:37,440 [INFO] 127.0.0.1 - "GET /js/products.js HTTP/1.1" 200 -
+2026-07-26 10:33:37,553 [INFO] 127.0.0.1 - "GET /api/customers HTTP/1.1" 200 -
+2026-07-26 10:33:37,590 [INFO] 127.0.0.1 - "GET /api/payments HTTP/1.1" 200 -
+2026-07-26 10:33:37,592 [INFO] 127.0.0.1 - "GET /api/products HTTP/1.1" 200 -
+2026-07-26 10:33:37,593 [INFO] 127.0.0.1 - "GET /api/suppliers HTTP/1.1" 200 -
+2026-07-26 10:33:37,595 [INFO] 127.0.0.1 - "GET /api/purchases HTTP/1.1" 200 -
+2026-07-26 10:33:37,596 [INFO] 127.0.0.1 - "GET /api/sales HTTP/1.1" 200 -
+2026-07-26 10:33:37,607 [INFO] 127.0.0.1 - "GET /api/expenses HTTP/1.1" 200 -
+2026-07-26 10:33:37,645 [WARNING] Unhandled GET request: /favicon.ico
+2026-07-26 10:33:37,645 [INFO] 127.0.0.1 - "GET /favicon.ico HTTP/1.1" 404 -
+2026-07-26 10:34:34,897 [INFO] Sale created: INV-4
+2026-07-26 10:34:34,898 [INFO] 127.0.0.1 - "POST /api/sales HTTP/1.1" 200 -
+2026-07-26 10:34:34,924 [INFO] Payment created: PMT-10
+2026-07-26 10:34:34,924 [INFO] 127.0.0.1 - "POST /api/payments HTTP/1.1" 200 -
+2026-07-26 10:38:05,126 [INFO] VSIMS API server stopping (tray quit)...
+2026-07-26 10:38:05,173 [INFO] VSIMS API server shut down cleanly
+2026-07-26 10:38:05,173 [INFO] ======================================================================
+2026-07-26 10:38:05,173 [INFO] VSIMS API server shutdown complete
+2026-07-26 10:38:05,173 [INFO] ======================================================================
+2026-07-27 10:52:48,890 [INFO] ======================================================================
+2026-07-27 10:52:48,891 [INFO] VSIMS API server starting up...
+2026-07-27 10:52:48,891 [INFO] Configuration loaded from C:\Users\sulem\Downloads\ALi\prototype\dist\config.ini
+2026-07-27 10:52:48,891 [INFO] Database: C:\Users\sulem\Downloads\ALi\prototype\dist\vsims.db
+2026-07-27 10:52:48,891 [INFO] Log level: 20
+2026-07-27 10:52:48,891 [INFO] ======================================================================
+2026-07-27 10:52:48,897 [INFO] Database initialized successfully at C:\Users\sulem\Downloads\ALi\prototype\dist\vsims.db
+2026-07-27 10:52:48,897 [INFO] Creating database backup...
+2026-07-27 10:52:48,900 [INFO] Database backed up to C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260727_105248.db
+2026-07-27 10:52:48,900 [INFO] Backup created: C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260727_105248.db
+2026-07-27 10:52:48,919 [INFO] VSIMS API server running at http://127.0.0.1:8000/
+2026-07-27 10:52:50,496 [INFO] 127.0.0.1 - "GET / HTTP/1.1" 200 -
+2026-07-27 10:52:50,570 [INFO] 127.0.0.1 - "GET /styles.css HTTP/1.1" 200 -
+2026-07-27 10:52:50,584 [INFO] 127.0.0.1 - "GET /js/pos.js HTTP/1.1" 200 -
+2026-07-27 10:52:50,585 [INFO] 127.0.0.1 - "GET /js/icons.js HTTP/1.1" 200 -
+2026-07-27 10:52:50,589 [INFO] 127.0.0.1 - "GET /js/api.js HTTP/1.1" 200 -
+2026-07-27 10:52:50,590 [INFO] 127.0.0.1 - "GET /js/auth.js HTTP/1.1" 200 -
+2026-07-27 10:52:50,590 [INFO] 127.0.0.1 - "GET /js/state.js HTTP/1.1" 200 -
+2026-07-27 10:52:50,599 [INFO] 127.0.0.1 - "GET /js/modals-data.js HTTP/1.1" 200 -
+2026-07-27 10:52:50,607 [INFO] 127.0.0.1 - "GET /js/purchases.js HTTP/1.1" 200 -
+2026-07-27 10:52:50,615 [INFO] 127.0.0.1 - "GET /js/payments.js HTTP/1.1" 200 -
+2026-07-27 10:52:50,615 [INFO] 127.0.0.1 - "GET /js/expenses.js HTTP/1.1" 200 -
+2026-07-27 10:52:50,619 [INFO] 127.0.0.1 - "GET /js/receipts.js HTTP/1.1" 200 -
+2026-07-27 10:52:50,628 [INFO] 127.0.0.1 - "GET /js/dashboard.js HTTP/1.1" 200 -
+2026-07-27 10:52:50,629 [INFO] 127.0.0.1 - "GET /js/inventory.js HTTP/1.1" 200 -
+2026-07-27 10:52:50,633 [INFO] 127.0.0.1 - "GET /js/customers.js HTTP/1.1" 200 -
+2026-07-27 10:52:50,637 [INFO] 127.0.0.1 - "GET /js/ui-core.js HTTP/1.1" 200 -
+2026-07-27 10:52:50,638 [INFO] 127.0.0.1 - "GET /js/products.js HTTP/1.1" 200 -
+2026-07-27 10:52:50,643 [INFO] 127.0.0.1 - "GET /js/suppliers.js HTTP/1.1" 200 -
+2026-07-27 10:52:50,677 [INFO] 127.0.0.1 - "GET /api/products HTTP/1.1" 200 -
+2026-07-27 10:52:50,679 [INFO] 127.0.0.1 - "GET /api/payments HTTP/1.1" 200 -
+2026-07-27 10:52:50,679 [INFO] 127.0.0.1 - "GET /api/suppliers HTTP/1.1" 200 -
+2026-07-27 10:52:50,680 [INFO] 127.0.0.1 - "GET /api/sales HTTP/1.1" 200 -
+2026-07-27 10:52:50,685 [INFO] 127.0.0.1 - "GET /api/customers HTTP/1.1" 200 -
+2026-07-27 10:52:50,700 [INFO] 127.0.0.1 - "GET /api/expenses HTTP/1.1" 200 -
+2026-07-27 10:52:50,716 [INFO] 127.0.0.1 - "GET /api/purchases HTTP/1.1" 200 -
+2026-07-27 10:52:50,827 [WARNING] Unhandled GET request: /favicon.ico
+2026-07-27 10:52:50,827 [INFO] 127.0.0.1 - "GET /favicon.ico HTTP/1.1" 404 -
+2026-07-27 10:53:22,399 [INFO] Customer updated: CU-0101
+2026-07-27 10:53:22,399 [INFO] 127.0.0.1 - "PUT /api/customers/CU-0101 HTTP/1.1" 200 -
+2026-07-27 10:53:49,950 [INFO] Payment created: PMT-11
+2026-07-27 10:53:49,950 [INFO] 127.0.0.1 - "POST /api/payments HTTP/1.1" 200 -
+2026-07-27 10:54:20,456 [INFO] Payment created: PMT-12
+2026-07-27 10:54:20,456 [INFO] 127.0.0.1 - "POST /api/payments HTTP/1.1" 200 -
+2026-07-28 18:38:07,929 [INFO] ======================================================================
+2026-07-28 18:38:07,929 [INFO] VSIMS API server starting up...
+2026-07-28 18:38:07,930 [INFO] Configuration loaded from C:\Users\sulem\Downloads\ALi\prototype\dist\config.ini
+2026-07-28 18:38:07,930 [INFO] Database: C:\Users\sulem\Downloads\ALi\prototype\dist\vsims.db
+2026-07-28 18:38:07,930 [INFO] Log level: 20
+2026-07-28 18:38:07,930 [INFO] ======================================================================
+2026-07-28 18:38:07,938 [INFO] Database initialized successfully at C:\Users\sulem\Downloads\ALi\prototype\dist\vsims.db
+2026-07-28 18:38:07,938 [INFO] Creating database backup...
+2026-07-28 18:38:07,943 [INFO] Database backed up to C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260728_183807.db
+2026-07-28 18:38:07,944 [INFO] Removed old backup C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260726_094956.db
+2026-07-28 18:38:07,944 [INFO] Backup created: C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260728_183807.db
+2026-07-28 18:38:07,969 [INFO] VSIMS API server running at http://127.0.0.1:8000/
+2026-07-28 18:38:10,376 [INFO] 127.0.0.1 - "GET / HTTP/1.1" 200 -
+2026-07-28 18:38:10,427 [INFO] 127.0.0.1 - "GET /styles.css HTTP/1.1" 200 -
+2026-07-28 18:38:10,436 [INFO] 127.0.0.1 - "GET /js/api.js HTTP/1.1" 200 -
+2026-07-28 18:38:10,438 [INFO] 127.0.0.1 - "GET /js/icons.js HTTP/1.1" 200 -
+2026-07-28 18:38:10,439 [INFO] 127.0.0.1 - "GET /js/modals-data.js HTTP/1.1" 200 -
+2026-07-28 18:38:10,442 [INFO] 127.0.0.1 - "GET /js/auth.js HTTP/1.1" 200 -
+2026-07-28 18:38:10,442 [INFO] 127.0.0.1 - "GET /js/state.js HTTP/1.1" 200 -
+2026-07-28 18:38:10,450 [INFO] 127.0.0.1 - "GET /js/pos.js HTTP/1.1" 200 -
+2026-07-28 18:38:10,453 [INFO] 127.0.0.1 - "GET /js/purchases.js HTTP/1.1" 200 -
+2026-07-28 18:38:10,456 [INFO] 127.0.0.1 - "GET /js/payments.js HTTP/1.1" 200 -
+2026-07-28 18:38:10,460 [INFO] 127.0.0.1 - "GET /js/expenses.js HTTP/1.1" 200 -
+2026-07-28 18:38:10,461 [INFO] 127.0.0.1 - "GET /js/receipts.js HTTP/1.1" 200 -
+2026-07-28 18:38:10,463 [INFO] 127.0.0.1 - "GET /js/inventory.js HTTP/1.1" 200 -
+2026-07-28 18:38:10,469 [INFO] 127.0.0.1 - "GET /js/customers.js HTTP/1.1" 200 -
+2026-07-28 18:38:10,472 [INFO] 127.0.0.1 - "GET /js/suppliers.js HTTP/1.1" 200 -
+2026-07-28 18:38:10,473 [INFO] 127.0.0.1 - "GET /js/dashboard.js HTTP/1.1" 200 -
+2026-07-28 18:38:10,490 [INFO] 127.0.0.1 - "GET /js/products.js HTTP/1.1" 200 -
+2026-07-28 18:38:10,490 [INFO] 127.0.0.1 - "GET /js/ui-core.js HTTP/1.1" 200 -
+2026-07-28 18:38:10,617 [INFO] 127.0.0.1 - "GET /api/suppliers HTTP/1.1" 200 -
+2026-07-28 18:38:10,618 [INFO] 127.0.0.1 - "GET /api/customers HTTP/1.1" 200 -
+2026-07-28 18:38:10,645 [INFO] 127.0.0.1 - "GET /api/sales HTTP/1.1" 200 -
+2026-07-28 18:38:10,656 [INFO] 127.0.0.1 - "GET /api/purchases HTTP/1.1" 200 -
+2026-07-28 18:38:10,656 [INFO] 127.0.0.1 - "GET /api/expenses HTTP/1.1" 200 -
+2026-07-28 18:38:10,656 [INFO] 127.0.0.1 - "GET /api/products HTTP/1.1" 200 -
+2026-07-28 18:38:10,658 [INFO] 127.0.0.1 - "GET /api/payments HTTP/1.1" 200 -
+2026-07-28 18:38:10,716 [WARNING] Unhandled GET request: /favicon.ico
+2026-07-28 18:38:10,717 [INFO] 127.0.0.1 - "GET /favicon.ico HTTP/1.1" 404 -
+2026-07-28 18:41:17,856 [INFO] ======================================================================
+2026-07-28 18:41:17,856 [INFO] VSIMS API server starting up...
+2026-07-28 18:41:17,857 [INFO] Configuration loaded from C:\Users\sulem\Downloads\ALi\prototype\dist\config.ini
+2026-07-28 18:41:17,857 [INFO] Database: C:\Users\sulem\Downloads\ALi\prototype\dist\vsims.db
+2026-07-28 18:41:17,857 [INFO] Log level: 20
+2026-07-28 18:41:17,857 [INFO] ======================================================================
+2026-07-28 18:41:17,891 [INFO] Database initialized successfully at C:\Users\sulem\Downloads\ALi\prototype\dist\vsims.db
+2026-07-28 18:41:17,891 [INFO] Creating database backup...
+2026-07-28 18:41:17,897 [INFO] Database backed up to C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260728_184117.db
+2026-07-28 18:41:17,899 [INFO] Removed old backup C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260726_100240.db
+2026-07-28 18:41:17,899 [INFO] Backup created: C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260728_184117.db
+2026-07-28 18:41:17,929 [INFO] VSIMS API server running at http://127.0.0.1:8000/
+2026-07-28 18:41:19,895 [INFO] 127.0.0.1 - "GET / HTTP/1.1" 200 -
+2026-07-28 18:41:20,090 [INFO] 127.0.0.1 - "GET /styles.css HTTP/1.1" 200 -
+2026-07-28 18:41:20,109 [INFO] 127.0.0.1 - "GET /js/icons.js HTTP/1.1" 200 -
+2026-07-28 18:41:20,111 [INFO] 127.0.0.1 - "GET /js/auth.js HTTP/1.1" 200 -
+2026-07-28 18:41:20,111 [INFO] 127.0.0.1 - "GET /js/state.js HTTP/1.1" 200 -
+2026-07-28 18:41:20,112 [INFO] 127.0.0.1 - "GET /js/api.js HTTP/1.1" 200 -
+2026-07-28 18:41:20,113 [INFO] 127.0.0.1 - "GET /js/modals-data.js HTTP/1.1" 200 -
+2026-07-28 18:41:20,117 [INFO] 127.0.0.1 - "GET /js/pos.js HTTP/1.1" 200 -
+2026-07-28 18:41:20,131 [INFO] 127.0.0.1 - "GET /js/purchases.js HTTP/1.1" 200 -
+2026-07-28 18:41:20,135 [INFO] 127.0.0.1 - "GET /js/payments.js HTTP/1.1" 200 -
+2026-07-28 18:41:20,144 [INFO] 127.0.0.1 - "GET /js/expenses.js HTTP/1.1" 200 -
+2026-07-28 18:41:20,147 [INFO] 127.0.0.1 - "GET /js/receipts.js HTTP/1.1" 200 -
+2026-07-28 18:41:20,150 [INFO] 127.0.0.1 - "GET /js/dashboard.js HTTP/1.1" 200 -
+2026-07-28 18:41:20,155 [INFO] 127.0.0.1 - "GET /js/inventory.js HTTP/1.1" 200 -
+2026-07-28 18:41:20,161 [INFO] 127.0.0.1 - "GET /js/customers.js HTTP/1.1" 200 -
+2026-07-28 18:41:20,163 [INFO] 127.0.0.1 - "GET /js/suppliers.js HTTP/1.1" 200 -
+2026-07-28 18:41:20,165 [INFO] 127.0.0.1 - "GET /js/products.js HTTP/1.1" 200 -
+2026-07-28 18:41:20,168 [INFO] 127.0.0.1 - "GET /js/ui-core.js HTTP/1.1" 200 -
+2026-07-28 18:41:20,315 [INFO] 127.0.0.1 - "GET /api/customers HTTP/1.1" 200 -
+2026-07-28 18:41:20,344 [INFO] 127.0.0.1 - "GET /api/products HTTP/1.1" 200 -
+2026-07-28 18:41:20,345 [INFO] 127.0.0.1 - "GET /api/suppliers HTTP/1.1" 200 -
+2026-07-28 18:41:20,345 [INFO] 127.0.0.1 - "GET /api/expenses HTTP/1.1" 200 -
+2026-07-28 18:41:20,347 [INFO] 127.0.0.1 - "GET /api/payments HTTP/1.1" 200 -
+2026-07-28 18:41:20,355 [INFO] 127.0.0.1 - "GET /api/purchases HTTP/1.1" 200 -
+2026-07-28 18:41:20,355 [INFO] 127.0.0.1 - "GET /api/sales HTTP/1.1" 200 -
+2026-07-28 18:41:20,397 [WARNING] Unhandled GET request: /favicon.ico
+2026-07-28 18:41:20,397 [INFO] 127.0.0.1 - "GET /favicon.ico HTTP/1.1" 404 -
+2026-07-28 18:42:32,042 [INFO] Customer created: CU-0102
+2026-07-28 18:42:32,043 [INFO] 127.0.0.1 - "POST /api/customers HTTP/1.1" 200 -
+2026-07-28 18:42:58,227 [INFO] Sale created: INV-5
+2026-07-28 18:42:58,227 [INFO] 127.0.0.1 - "POST /api/sales HTTP/1.1" 200 -
+2026-07-28 18:42:58,273 [INFO] Payment created: PMT-13
+2026-07-28 18:42:58,274 [INFO] 127.0.0.1 - "POST /api/payments HTTP/1.1" 200 -
+2026-07-28 19:29:19,981 [INFO] ======================================================================
+2026-07-28 19:29:19,982 [INFO] VSIMS API server starting up...
+2026-07-28 19:29:19,982 [INFO] Configuration loaded from C:\Users\sulem\Downloads\ALi\prototype\dist\config.ini
+2026-07-28 19:29:19,982 [INFO] Database: C:\Users\sulem\Downloads\ALi\prototype\dist\vsims.db
+2026-07-28 19:29:19,982 [INFO] Log level: 20
+2026-07-28 19:29:19,982 [INFO] ======================================================================
+2026-07-28 19:29:19,989 [INFO] Database initialized successfully at C:\Users\sulem\Downloads\ALi\prototype\dist\vsims.db
+2026-07-28 19:29:19,989 [INFO] Creating database backup...
+2026-07-28 19:29:19,993 [INFO] Database backed up to C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260728_192919.db
+2026-07-28 19:29:19,995 [INFO] Removed old backup C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260726_100253.db
+2026-07-28 19:29:19,995 [INFO] Backup created: C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260728_192919.db
+2026-07-28 19:29:20,021 [INFO] VSIMS API server running at http://127.0.0.1:8000/
+2026-07-28 19:29:21,699 [INFO] 127.0.0.1 - "GET / HTTP/1.1" 200 -
+2026-07-28 19:29:21,912 [INFO] 127.0.0.1 - "GET /styles.css HTTP/1.1" 200 -
+2026-07-28 19:29:21,928 [INFO] 127.0.0.1 - "GET /js/icons.js HTTP/1.1" 200 -
+2026-07-28 19:29:21,929 [INFO] 127.0.0.1 - "GET /js/api.js HTTP/1.1" 200 -
+2026-07-28 19:29:21,933 [INFO] 127.0.0.1 - "GET /js/auth.js HTTP/1.1" 200 -
+2026-07-28 19:29:21,972 [INFO] 127.0.0.1 - "GET /js/state.js HTTP/1.1" 200 -
+2026-07-28 19:29:21,974 [INFO] 127.0.0.1 - "GET /js/purchases.js HTTP/1.1" 200 -
+2026-07-28 19:29:21,974 [INFO] 127.0.0.1 - "GET /js/modals-data.js HTTP/1.1" 200 -
+2026-07-28 19:29:21,982 [INFO] 127.0.0.1 - "GET /js/receipts.js HTTP/1.1" 200 -
+2026-07-28 19:29:21,986 [INFO] 127.0.0.1 - "GET /js/payments.js HTTP/1.1" 200 -
+2026-07-28 19:29:21,999 [INFO] 127.0.0.1 - "GET /js/dashboard.js HTTP/1.1" 200 -
+2026-07-28 19:29:22,007 [INFO] 127.0.0.1 - "GET /js/suppliers.js HTTP/1.1" 200 -
+2026-07-28 19:29:22,010 [INFO] 127.0.0.1 - "GET /js/products.js HTTP/1.1" 200 -
+2026-07-28 19:29:22,012 [INFO] 127.0.0.1 - "GET /js/ui-core.js HTTP/1.1" 200 -
+2026-07-28 19:29:22,012 [INFO] 127.0.0.1 - "GET /js/inventory.js HTTP/1.1" 200 -
+2026-07-28 19:29:22,017 [INFO] 127.0.0.1 - "GET /js/customers.js HTTP/1.1" 200 -
+2026-07-28 19:29:22,024 [INFO] 127.0.0.1 - "GET /js/pos.js HTTP/1.1" 200 -
+2026-07-28 19:29:22,029 [INFO] 127.0.0.1 - "GET /js/expenses.js HTTP/1.1" 200 -
+2026-07-28 19:29:22,167 [INFO] 127.0.0.1 - "GET /api/customers HTTP/1.1" 200 -
+2026-07-28 19:29:22,172 [INFO] 127.0.0.1 - "GET /api/suppliers HTTP/1.1" 200 -
+2026-07-28 19:29:22,197 [INFO] 127.0.0.1 - "GET /api/sales HTTP/1.1" 200 -
+2026-07-28 19:29:22,199 [INFO] 127.0.0.1 - "GET /api/payments HTTP/1.1" 200 -
+2026-07-28 19:29:22,204 [INFO] 127.0.0.1 - "GET /api/purchases HTTP/1.1" 200 -
+2026-07-28 19:29:22,214 [INFO] 127.0.0.1 - "GET /api/products HTTP/1.1" 200 -
+2026-07-28 19:29:22,224 [INFO] 127.0.0.1 - "GET /api/expenses HTTP/1.1" 200 -
+2026-07-28 19:29:22,347 [WARNING] Unhandled GET request: /favicon.ico
+2026-07-28 19:29:22,348 [INFO] 127.0.0.1 - "GET /favicon.ico HTTP/1.1" 404 -
+2026-07-28 19:30:19,269 [INFO] ======================================================================
+2026-07-28 19:30:19,270 [INFO] VSIMS API server starting up...
+2026-07-28 19:30:19,270 [INFO] Configuration loaded from C:\Users\sulem\Downloads\ALi\prototype\dist\config.ini
+2026-07-28 19:30:19,270 [INFO] Database: C:\Users\sulem\Downloads\ALi\prototype\dist\vsims.db
+2026-07-28 19:30:19,270 [INFO] Log level: 20
+2026-07-28 19:30:19,270 [INFO] ======================================================================
+2026-07-28 19:30:19,279 [INFO] Database initialized successfully at C:\Users\sulem\Downloads\ALi\prototype\dist\vsims.db
+2026-07-28 19:30:19,279 [INFO] Creating database backup...
+2026-07-28 19:30:19,283 [INFO] Database backed up to C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260728_193019.db
+2026-07-28 19:30:19,285 [INFO] Removed old backup C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260726_102252.db
+2026-07-28 19:30:19,285 [INFO] Backup created: C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260728_193019.db
+2026-07-28 19:30:19,316 [INFO] VSIMS API server running at http://127.0.0.1:8000/
+2026-07-28 19:30:21,112 [INFO] 127.0.0.1 - "GET / HTTP/1.1" 200 -
+2026-07-28 19:30:21,287 [INFO] 127.0.0.1 - "GET /styles.css HTTP/1.1" 200 -
+2026-07-28 19:30:21,306 [INFO] 127.0.0.1 - "GET /js/api.js HTTP/1.1" 200 -
+2026-07-28 19:30:21,311 [INFO] 127.0.0.1 - "GET /js/auth.js HTTP/1.1" 200 -
+2026-07-28 19:30:21,311 [INFO] 127.0.0.1 - "GET /js/icons.js HTTP/1.1" 200 -
+2026-07-28 19:30:21,330 [INFO] 127.0.0.1 - "GET /js/modals-data.js HTTP/1.1" 200 -
+2026-07-28 19:30:21,335 [INFO] 127.0.0.1 - "GET /js/purchases.js HTTP/1.1" 200 -
+2026-07-28 19:30:21,337 [INFO] 127.0.0.1 - "GET /js/pos.js HTTP/1.1" 200 -
+2026-07-28 19:30:21,343 [INFO] 127.0.0.1 - "GET /js/payments.js HTTP/1.1" 200 -
+2026-07-28 19:30:21,338 [INFO] 127.0.0.1 - "GET /js/state.js HTTP/1.1" 200 -
+2026-07-28 19:30:21,353 [INFO] 127.0.0.1 - "GET /js/expenses.js HTTP/1.1" 200 -
+2026-07-28 19:30:21,363 [INFO] 127.0.0.1 - "GET /js/dashboard.js HTTP/1.1" 200 -
+2026-07-28 19:30:21,364 [INFO] 127.0.0.1 - "GET /js/receipts.js HTTP/1.1" 200 -
+2026-07-28 19:30:21,366 [INFO] 127.0.0.1 - "GET /js/inventory.js HTTP/1.1" 200 -
+2026-07-28 19:30:21,385 [INFO] 127.0.0.1 - "GET /js/suppliers.js HTTP/1.1" 200 -
+2026-07-28 19:30:21,387 [INFO] 127.0.0.1 - "GET /js/customers.js HTTP/1.1" 200 -
+2026-07-28 19:30:21,390 [INFO] 127.0.0.1 - "GET /js/products.js HTTP/1.1" 200 -
+2026-07-28 19:30:21,395 [INFO] 127.0.0.1 - "GET /js/ui-core.js HTTP/1.1" 200 -
+2026-07-28 19:30:21,531 [INFO] 127.0.0.1 - "GET /api/customers HTTP/1.1" 200 -
+2026-07-28 19:30:21,536 [INFO] 127.0.0.1 - "GET /api/suppliers HTTP/1.1" 200 -
+2026-07-28 19:30:21,577 [INFO] 127.0.0.1 - "GET /api/expenses HTTP/1.1" 200 -
+2026-07-28 19:30:21,583 [INFO] 127.0.0.1 - "GET /api/products HTTP/1.1" 200 -
+2026-07-28 19:30:21,584 [INFO] 127.0.0.1 - "GET /api/purchases HTTP/1.1" 200 -
+2026-07-28 19:30:21,584 [INFO] 127.0.0.1 - "GET /api/payments HTTP/1.1" 200 -
+2026-07-28 19:30:21,587 [INFO] 127.0.0.1 - "GET /api/sales HTTP/1.1" 200 -
+2026-07-28 19:30:21,596 [WARNING] Unhandled GET request: /favicon.ico
+2026-07-28 19:30:21,596 [INFO] 127.0.0.1 - "GET /favicon.ico HTTP/1.1" 404 -
+2026-07-28 19:30:25,252 [INFO] VSIMS API server stopping (tray quit)...
+2026-07-28 19:30:25,594 [INFO] VSIMS API server shut down cleanly
+2026-07-28 19:30:25,595 [INFO] ======================================================================
+2026-07-28 19:30:25,595 [INFO] VSIMS API server shutdown complete
+2026-07-28 19:30:25,595 [INFO] ======================================================================
+2026-07-28 19:30:27,282 [INFO] VSIMS API server stopping (tray quit)...
+2026-07-28 19:30:27,551 [INFO] VSIMS API server shut down cleanly
+2026-07-28 19:30:27,551 [INFO] ======================================================================
+2026-07-28 19:30:27,552 [INFO] VSIMS API server shutdown complete
+2026-07-28 19:30:27,552 [INFO] ======================================================================
+2026-07-28 19:30:29,563 [INFO] VSIMS API server stopping (tray quit)...
+2026-07-28 19:30:29,783 [INFO] VSIMS API server shut down cleanly
+2026-07-28 19:30:29,783 [INFO] ======================================================================
+2026-07-28 19:30:29,784 [INFO] VSIMS API server shutdown complete
+2026-07-28 19:30:29,784 [INFO] ======================================================================
+2026-07-28 19:30:31,581 [INFO] VSIMS API server stopping (tray quit)...
+2026-07-28 19:30:31,669 [INFO] VSIMS API server shut down cleanly
+2026-07-28 19:30:31,670 [INFO] ======================================================================
+2026-07-28 19:30:31,670 [INFO] VSIMS API server shutdown complete
+2026-07-28 19:30:31,670 [INFO] ======================================================================
+2026-07-28 19:30:36,421 [INFO] ======================================================================
+2026-07-28 19:30:36,421 [INFO] VSIMS API server starting up...
+2026-07-28 19:30:36,421 [INFO] Configuration loaded from C:\Users\sulem\Downloads\ALi\prototype\dist\config.ini
+2026-07-28 19:30:36,421 [INFO] Database: C:\Users\sulem\Downloads\ALi\prototype\dist\vsims.db
+2026-07-28 19:30:36,421 [INFO] Log level: 20
+2026-07-28 19:30:36,421 [INFO] ======================================================================
+2026-07-28 19:30:36,430 [INFO] Database initialized successfully at C:\Users\sulem\Downloads\ALi\prototype\dist\vsims.db
+2026-07-28 19:30:36,430 [INFO] Creating database backup...
+2026-07-28 19:30:36,435 [INFO] Database backed up to C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260728_193036.db
+2026-07-28 19:30:36,437 [INFO] Removed old backup C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260727_105248.db
+2026-07-28 19:30:36,438 [INFO] Backup created: C:\Users\sulem\Downloads\ALi\prototype\dist\backups\vsims_20260728_193036.db
+2026-07-28 19:30:36,468 [INFO] VSIMS API server running at http://127.0.0.1:8000/
+2026-07-28 19:30:38,388 [INFO] 127.0.0.1 - "GET / HTTP/1.1" 200 -
+2026-07-28 19:30:38,467 [INFO] 127.0.0.1 - "GET /styles.css HTTP/1.1" 200 -
+2026-07-28 19:30:38,479 [INFO] 127.0.0.1 - "GET /js/api.js HTTP/1.1" 200 -
+2026-07-28 19:30:38,481 [INFO] 127.0.0.1 - "GET /js/state.js HTTP/1.1" 200 -
+2026-07-28 19:30:38,481 [INFO] 127.0.0.1 - "GET /js/auth.js HTTP/1.1" 200 -
+2026-07-28 19:30:38,482 [INFO] 127.0.0.1 - "GET /js/icons.js HTTP/1.1" 200 -
+2026-07-28 19:30:38,485 [INFO] 127.0.0.1 - "GET /js/modals-data.js HTTP/1.1" 200 -
+2026-07-28 19:30:38,488 [INFO] 127.0.0.1 - "GET /js/pos.js HTTP/1.1" 200 -
+2026-07-28 19:30:38,496 [INFO] 127.0.0.1 - "GET /js/purchases.js HTTP/1.1" 200 -
+2026-07-28 19:30:38,498 [INFO] 127.0.0.1 - "GET /js/expenses.js HTTP/1.1" 200 -
+2026-07-28 19:30:38,500 [INFO] 127.0.0.1 - "GET /js/payments.js HTTP/1.1" 200 -
+2026-07-28 19:30:38,508 [INFO] 127.0.0.1 - "GET /js/receipts.js HTTP/1.1" 200 -
+2026-07-28 19:30:38,516 [INFO] 127.0.0.1 - "GET /js/dashboard.js HTTP/1.1" 200 -
+2026-07-28 19:30:38,516 [INFO] 127.0.0.1 - "GET /js/inventory.js HTTP/1.1" 200 -
+2026-07-28 19:30:38,524 [INFO] 127.0.0.1 - "GET /js/customers.js HTTP/1.1" 200 -
+2026-07-28 19:30:38,525 [INFO] 127.0.0.1 - "GET /js/suppliers.js HTTP/1.1" 200 -
+2026-07-28 19:30:38,536 [INFO] 127.0.0.1 - "GET /js/products.js HTTP/1.1" 200 -
+2026-07-28 19:30:38,537 [INFO] 127.0.0.1 - "GET /js/ui-core.js HTTP/1.1" 200 -
+2026-07-28 19:30:38,622 [INFO] 127.0.0.1 - "GET /api/customers HTTP/1.1" 200 -
+2026-07-28 19:30:38,640 [INFO] 127.0.0.1 - "GET /api/suppliers HTTP/1.1" 200 -
+2026-07-28 19:30:38,643 [INFO] 127.0.0.1 - "GET /api/products HTTP/1.1" 200 -
+2026-07-28 19:30:38,670 [INFO] 127.0.0.1 - "GET /api/expenses HTTP/1.1" 200 -
+2026-07-28 19:30:38,675 [INFO] 127.0.0.1 - "GET /api/sales HTTP/1.1" 200 -
+2026-07-28 19:30:38,680 [INFO] 127.0.0.1 - "GET /api/payments HTTP/1.1" 200 -
+2026-07-28 19:30:38,682 [INFO] 127.0.0.1 - "GET /api/purchases HTTP/1.1" 200 -
+2026-07-28 19:30:38,737 [WARNING] Unhandled GET request: /favicon.ico
+2026-07-28 19:30:38,737 [INFO] 127.0.0.1 - "GET /favicon.ico HTTP/1.1" 404 -
+2026-07-28 19:44:47,276 [INFO] Product created: PR-3
+2026-07-28 19:44:47,277 [INFO] 127.0.0.1 - "POST /api/products HTTP/1.1" 200 -
+2026-07-28 19:44:53,749 [INFO] Products deleted: PR-2
+2026-07-28 19:44:53,750 [INFO] 127.0.0.1 - "DELETE /api/products/PR-2 HTTP/1.1" 200 -
+2026-07-28 19:45:49,796 [INFO] Product created: PR-4
+2026-07-28 19:45:49,796 [INFO] 127.0.0.1 - "POST /api/products HTTP/1.1" 200 -
+2026-07-28 19:46:05,389 [INFO] Product updated: PR-1
+2026-07-28 19:46:05,390 [INFO] 127.0.0.1 - "PUT /api/products/PR-1 HTTP/1.1" 200 -
+2026-07-28 19:48:14,021 [INFO] Sale created: INV-6
+2026-07-28 19:48:14,022 [INFO] 127.0.0.1 - "POST /api/sales HTTP/1.1" 200 -
+2026-07-28 19:48:14,069 [INFO] Payment created: PMT-14
+2026-07-28 19:48:14,070 [INFO] 127.0.0.1 - "POST /api/payments HTTP/1.1" 200 -
+2026-07-28 19:51:09,606 [INFO] Customer updated: CU-0101
+2026-07-28 19:51:09,607 [INFO] 127.0.0.1 - "PUT /api/customers/CU-0101 HTTP/1.1" 200 -
+2026-07-28 19:51:45,320 [INFO] Payment created: PMT-15
+2026-07-28 19:51:45,321 [INFO] 127.0.0.1 - "POST /api/payments HTTP/1.1" 200 -
+2026-07-28 19:52:52,259 [INFO] Payment created: PMT-16
+2026-07-28 19:52:52,260 [INFO] 127.0.0.1 - "POST /api/payments HTTP/1.1" 200 -
+2026-07-28 19:55:25,105 [INFO] Supplier created: SU-2
+2026-07-28 19:55:25,106 [INFO] 127.0.0.1 - "POST /api/suppliers HTTP/1.1" 200 -
+2026-07-28 20:25:41,933 [INFO] VSIMS API server stopping (tray quit)...
+2026-07-28 20:25:42,380 [INFO] VSIMS API server shut down cleanly
+2026-07-28 20:25:42,381 [INFO] ======================================================================
+2026-07-28 20:25:42,382 [INFO] VSIMS API server shutdown complete
+2026-07-28 20:25:42,382 [INFO] ======================================================================

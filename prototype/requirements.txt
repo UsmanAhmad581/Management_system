@@ -1,0 +1,12 @@
+# Runtime dependencies for VSIMS.
+#
+# server.py works with just the Python standard library (no console app
+# needs anything below). These two packages are only used to draw the
+# system tray icon shown when running as the windowed/GUI build — if they
+# aren't installed, the app still runs fine in the background, just
+# without a tray icon to quit from.
+pystray==0.19.5
+Pillow>=10.0.0
+
+# Needed at build time only, not at runtime:
+# pyinstaller==6.10.0
